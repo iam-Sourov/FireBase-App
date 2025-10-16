@@ -2,7 +2,7 @@ import React from 'react';
 
 const Home = () => {
     return (
-        <div className="hero text-white">
+        <div className="hero  text-white">
             <div className="hero-content flex-col lg:flex-row">
                 <img
                     src="https://firebase.google.com/static/images/brand-guidelines/logo-logomark.png"
@@ -13,7 +13,7 @@ const Home = () => {
                     <p className="py-6">
                         Stay Tuned!!!!!
                     </p>
-                    <button className="btn shadow-none text-white bg-black">Get Started</button>
+                    <button className="btn shadow-none text-white bg-black">Sign IN</button>
                 </div>
             </div>
         </div>
