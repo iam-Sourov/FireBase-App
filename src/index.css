@@ -2,7 +2,7 @@
 @plugin "daisyui";
 
 a.active {
-    color: white;
-    background: black;
+    color: black;
+    background: white;
 
 }
