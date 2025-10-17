@@ -1,4 +1,6 @@
 import React from 'react';
+import { GrLinkTop } from 'react-icons/gr';
+import { Link } from 'react-router';
 
 const Home = () => {
     return (
@@ -13,7 +15,8 @@ const Home = () => {
                     <p className="py-6">
                         Stay Tuned!!!!!
                     </p>
-                    <button className="btn shadow-none text-white bg-black">Sign IN</button>
+                    <Link to={'/signup'}>
+                        <button className="btn shadow-none text-white bg-black">Sign Up</button></Link>
                 </div>
             </div>
         </div>
